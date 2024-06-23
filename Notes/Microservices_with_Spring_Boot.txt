@@ -1,0 +1,26 @@
+=================================================================================================================================================================================================================
+														Microservices With Spring Boot
+=================================================================================================================================================================================================================
+Github link for code: https://github.com/eazybytes/microservices
+
+Microservices:
+	 - Microservice is an approach of developing a single application as a suite of multiple small services.
+	 - these services communicate with each other with lightweight mechanisms(such as REST APIs).
+	 - they are independent and fully automated.
+	 
+Why Spring Boot:
+	 - Spring Boot simplifies the development and deployment of Java application and also microservices.
+	 - we can build self contained executable jar files instead of WAR or EAR files
+	 - these jar files contain all the resources(libraries, classes, server...) to run a project
+	 
+Dependency of spring boot project in start.spring.io:
+	 - H2 database:
+		 - it is an internal memory database used to create spring boot wen applications
+		 - does not require installation of mysql applications or servers...
+		 
+	 - Lombok:
+		 - developer tool spring boot dependency
+		 - helps us to reduce writing custom boilerplate code like getters/setters.... in POJO class.
+		 
+	 - Validation:
+		 - required for validation of I/O requests
