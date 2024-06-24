@@ -22,5 +22,12 @@ Dependency of spring boot project in start.spring.io:
 		 - developer tool spring boot dependency
 		 - helps us to reduce writing custom boilerplate code like getters/setters.... in POJO class.
 		 
+		 - how to enable annotation processing(to use lambok related annotations):
+			 - Go to settings
+			 - search for annotations
+			 - select annotation processors
+			 - Click on Annotation processing option
+			 - Apply -> Okay
+		 
 	 - Validation:
 		 - required for validation of I/O requests
